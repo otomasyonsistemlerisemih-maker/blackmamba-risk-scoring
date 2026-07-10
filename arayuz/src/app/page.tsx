@@ -1444,6 +1444,11 @@ export default function Home() {
             </div>
           </div>
         )}
+
+        {/* Footer Signature */}
+        <footer className="mt-12 mb-4 flex justify-end text-xs text-gray-500 font-light tracking-wider hover:text-gray-400 transition-colors">
+          <span>By Semih Kaçmaz</span>
+        </footer>
       </div>
     </div>
   );
