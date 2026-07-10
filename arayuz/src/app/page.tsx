@@ -772,8 +772,8 @@ export default function Home() {
                         {analizAdimi === 3 && <span className="spinner text-violet-400"></span>}
                       </div>
                       <p className="text-xs text-gray-400 mt-1">
-                        {analizAdimi === 3 ? "45 günlük nakit projeksiyonu ve stres testi simülasyonu yapılıyor..." : ""}
-                        {analizAdimi > 3 ? `45. Gün Projeksiyonu: ${sonuc?.tahmin.hedef_tarihteki_tahmini_bakiye.toLocaleString('tr-TR')} TL (Günlük Nakit Yakma Hızı: ${sonuc?.tahmin.gunluk_nakit_yakma_hizi.toLocaleString('tr-TR')} TL)` : ""}
+                        {analizAdimi === 3 ? "180 günlük nakit projeksiyonu ve stres testi simülasyonu yapılıyor..." : ""}
+                        {analizAdimi > 3 ? `180. Gün Projeksiyonu: ${sonuc?.tahmin.hedef_tarihteki_tahmini_bakiye.toLocaleString('tr-TR')} TL (Günlük Nakit Yakma Hızı: ${sonuc?.tahmin.gunluk_nakit_yakma_hizi.toLocaleString('tr-TR')} TL)` : ""}
                         {analizAdimi < 3 ? "Sıraya alındı." : ""}
                       </p>
                       {sonuc && (
@@ -828,11 +828,11 @@ export default function Home() {
             )}
 
             {!sonuc && !yukleniyor && !hata && (
-              <div className="glass-card p-8 text-center flex flex-col items-center justify-center min-h-[350px] border-dashed border-white/10">
-                <div className="w-16 h-16 rounded-full bg-white/[0.03] border border-white/[0.08] flex items-center justify-center mb-4 text-violet-400">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+              <div className="glass-card p-6 sm:p-8 text-center flex flex-col items-center justify-center min-h-[300px] sm:min-h-[350px] border-dashed border-white/10">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-white/[0.03] border border-white/[0.08] flex items-center justify-center mb-4 text-violet-400">
+                  <svg className="w-6 h-6 sm:w-8 sm:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
                 </div>
-                <h3 className="text-base font-semibold text-white mb-2">Analiz Bekleniyor</h3>
+                <h3 className="text-sm sm:text-base font-semibold text-white mb-2">Analiz Bekleniyor</h3>
                 <p className="text-xs text-gray-400 max-w-xs">
                   Sol paneldeki girdileri doldurarak Çoklu Ajan Analizini başlatın ve riski gerçek zamanlı simüle edin.
                 </p>
@@ -841,16 +841,16 @@ export default function Home() {
 
             {/* AI Ajan Yükleme İllüstrasyonu (İsteğe bağlı, animasyon hissi verir) */}
             {yukleniyor && !sonuc && (
-              <div className="glass-card p-8 flex flex-col items-center justify-center min-h-[450px]">
+              <div className="glass-card p-6 sm:p-8 flex flex-col items-center justify-center min-h-[400px] sm:min-h-[450px]">
                 <div className="score-circle-container mb-6 flex items-center justify-center">
                   <div className="absolute inset-0 border-4 border-white/[0.02] rounded-full"></div>
-                  <div className="w-32 h-32 rounded-full border-t-2 border-violet-500 animate-spin flex items-center justify-center">
-                    <span className="text-xs font-semibold text-violet-400 animate-pulse">Tarama Yapılıyor</span>
+                  <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-t-2 border-violet-500 animate-spin flex items-center justify-center">
+                    <span className="text-[10px] sm:text-xs font-semibold text-violet-400 animate-pulse">Tarama Yapılıyor</span>
                   </div>
                 </div>
-                <h3 className="text-sm font-semibold text-white mb-2">Ajanlar Karar Sürecinde</h3>
+                <h3 className="text-xs sm:text-sm font-semibold text-white mb-2">Ajanlar Karar Sürecinde</h3>
                 <p className="text-xs text-gray-400 text-center max-w-xs">
-                  Sektörel katsayılar, 45 günlük nakit akışı anomalileri ve stres senaryoları modeline göre verileriniz işleniyor.
+                  Sektörel katsayılar, 180 günlük nakit akışı anomalileri ve stres senaryoları modeline göre verileriniz işleniyor.
                 </p>
               </div>
             )}
@@ -985,7 +985,7 @@ export default function Home() {
                     const zeroY = getY(0);
 
                     return (
-                      <div className="relative">
+                      <div className="relative touch-none">
                         <svg
                           viewBox={`0 0 ${width} ${height}`}
                           className="w-full h-auto overflow-visible select-none"
@@ -1003,6 +1003,22 @@ export default function Home() {
                             }
                           }}
                           onMouseLeave={() => setHoverIndex(null)}
+                          onTouchMove={(e) => {
+                            if (e.touches && e.touches.length > 0) {
+                              const rect = e.currentTarget.getBoundingClientRect();
+                              const x = e.touches[0].clientX - rect.left;
+                              const relX = x - (paddingLeft / rect.width) * width;
+                              const pct = relX / ((availW / width) * rect.width);
+                              if (pct >= 0 && pct <= 1) {
+                                const idx = Math.min(
+                                  normalSeries.length - 1,
+                                  Math.max(0, Math.round(pct * (normalSeries.length - 1)))
+                                );
+                                setHoverIndex(idx);
+                              }
+                            }
+                          }}
+                          onTouchEnd={() => setHoverIndex(null)}
                         >
                           <defs>
                             <linearGradient id="normalGrad" x1="0" y1="0" x2="0" y2="1">
@@ -1382,10 +1398,10 @@ export default function Home() {
                     <th className="pb-3 font-semibold">Açıklama</th>
                     <th className="pb-3 font-semibold text-right">Tutar</th>
                     <th className="pb-3 font-semibold text-center">Kategori</th>
-                    <th className="pb-3 font-semibold text-center">Periyodik</th>
+                    <th className="pb-3 font-semibold text-center hidden md:table-cell">Periyodik</th>
                     <th className="pb-3 font-semibold text-center">Güven Skoru</th>
                     <th className="pb-3 font-semibold text-center">Anomali mi?</th>
-                    <th className="pb-3 font-semibold pl-4">Mevsimsellik Etkisi</th>
+                    <th className="pb-3 font-semibold pl-4 hidden lg:table-cell">Mevsimsellik Etkisi</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-white/[0.03]">
@@ -1409,7 +1425,7 @@ export default function Home() {
                             {tx.kategori.replace('_', ' ')}
                           </span>
                         </td>
-                        <td className="py-3.5 text-center">
+                        <td className="py-3.5 text-center hidden md:table-cell">
                           <span className={`text-[10px] ${tx.periyodik_mi ? 'text-cyan-400 font-medium' : 'text-gray-500'}`}>
                             {tx.periyodik_mi ? 'Evet' : 'Hayır'}
                           </span>
@@ -1431,7 +1447,7 @@ export default function Home() {
                             <span className="text-[10px] text-gray-500">Normal</span>
                           )}
                         </td>
-                        <td className="py-3.5 text-gray-300 leading-normal max-w-xs truncate pl-4" title={tx.mevsimsellik_etkisi}>
+                        <td className="py-3.5 text-gray-300 leading-normal max-w-xs truncate pl-4 hidden lg:table-cell" title={tx.mevsimsellik_etkisi}>
                           {tx.mevsimsellik_etkisi || (
                             <span className="text-gray-600">-</span>
                           )}
