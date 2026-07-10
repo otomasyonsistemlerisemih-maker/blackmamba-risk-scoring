@@ -1,0 +1,72 @@
+[
+  {
+    "islem_id": "TXN_AGR001",
+    "tarih": "2026-03-05",
+    "tutar": -15000.00,
+    "aciklama": "Mart 2026 Merkez Ofis Kira Bedeli Odemesi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_AGR002",
+    "tarih": "2026-03-10",
+    "tutar": -140000.00,
+    "aciklama": "Baharlık Gubre, Tohum ve Tarimsal Ilac Toptan Alimi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_AGR003",
+    "tarih": "2026-03-28",
+    "tutar": -40000.00,
+    "aciklama": "Mart 2026 Daimi Personel Net Maas Odemeleri",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_AGR004",
+    "tarih": "2026-04-05",
+    "tutar": -15000.00,
+    "aciklama": "Nisan 2026 Merkez Ofis Kira Bedeli Odemesi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_AGR005",
+    "tarih": "2026-04-12",
+    "tutar": 60000.00,
+    "aciklama": "Gida, Tarim ve Hayvancilik Bakanligi Mazot ve Gubre Destegi Tahsilati",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN_AGR006",
+    "tarih": "2026-04-28",
+    "tutar": -40000.00,
+    "aciklama": "Nisan 2026 Daimi Personel Net Maas Odemeleri",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_AGR007",
+    "tarih": "2026-05-05",
+    "tutar": -15000.00,
+    "aciklama": "Mayis 2026 Merkez Ofis Kira Bedeli Odemesi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_AGR008",
+    "tarih": "2026-05-28",
+    "tutar": -42000.00,
+    "aciklama": "Mayis 2026 Daimi Personel Net Maas Odemeleri",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_AGR009",
+    "tarih": "2026-06-15",
+    "tutar": 580000.00,
+    "aciklama": "Toptanci Hal Birligi Kiraz ve Visne Sezonu Hasat Toplu Satisi",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN_AGR010",
+    "tarih": "2026-06-28",
+    "tutar": -110000.00,
+    "aciklama": "Hasat Donemi Mevsimlik Tarim Iscileri Gunluk Yevmiye Odemeleri",
+    "islem_tipi": "GIDER"
+  }
+]

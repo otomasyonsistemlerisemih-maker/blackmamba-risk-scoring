@@ -1,0 +1,79 @@
+[
+  {
+    "islem_id": "TXN_RET001",
+    "tarih": "2026-04-05",
+    "tutar": -30000.00,
+    "aciklama": "Nisan 2026 Cadde Magazasi Kira Odemesi - Emlak A.S.",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_RET002",
+    "tarih": "2026-04-10",
+    "tutar": 160000.00,
+    "aciklama": "Nisan Pos Cihazi Toplu Magaza Ciro Aktarimi",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN_RET003",
+    "tarih": "2026-04-28",
+    "tutar": -60000.00,
+    "aciklama": "Nisan 2026 Magaza Personeli Maas Net Odemeleri",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_RET004",
+    "tarih": "2026-05-05",
+    "tutar": -30000.00,
+    "aciklama": "Mayis 2026 Cadde Magazasi Kira Odemesi - Emlak A.S.",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_RET005",
+    "tarih": "2026-05-10",
+    "tutar": 165000.00,
+    "aciklama": "Mayis Pos Cihazi Toplu Magaza Ciro Aktarimi",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN_RET006",
+    "tarih": "2026-05-20",
+    "tutar": -250000.00,
+    "aciklama": "Depo Yangini Sonrasi Acil Tadilat, Yenileme ve Ekipman Gideri",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_RET007",
+    "tarih": "2026-05-28",
+    "tutar": -62000.00,
+    "aciklama": "Mayis 2026 Magaza Personeli Maas Net Odemeleri",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_RET008",
+    "tarih": "2026-06-05",
+    "tutar": -30000.00,
+    "aciklama": "Haziran 2026 Cadde Magazasi Kira Odemesi - Emlak A.S.",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_RET009",
+    "tarih": "2026-06-10",
+    "tutar": 170000.00,
+    "aciklama": "Haziran Pos Cihazi Toplu Magaza Ciro Aktarimi",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN_RET010",
+    "tarih": "2026-06-28",
+    "tutar": -60000.00,
+    "aciklama": "Haziran 2026 Magaza Personeli Maas Net Odemeleri",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_RET011",
+    "tarih": "2026-06-30",
+    "tutar": 350000.00,
+    "aciklama": "Eski Sezon Stok Tasfiyesi Toplu B2B Ihracat Satisi",
+    "islem_tipi": "GELIR"
+  }
+]

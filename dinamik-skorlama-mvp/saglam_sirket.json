@@ -1,0 +1,72 @@
+[
+  {
+    "islem_id": "TXN001",
+    "tarih": "2026-04-05",
+    "tutar": -45000.00,
+    "aciklama": "Nisan 2026 Merkez Ofis Kira Odemesi - Ahmet Yilmaz",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN002",
+    "tarih": "2026-04-10",
+    "tutar": 185000.00,
+    "aciklama": "Gunes Tekstil Ltd Sti Cari Tahsilat",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN003",
+    "tarih": "2026-04-28",
+    "tutar": -120000.00,
+    "aciklama": "Nisan 2026 Personel Maasi Net Odemeleri Bilgisi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN004",
+    "tarih": "2026-05-05",
+    "tutar": -45000.00,
+    "aciklama": "Mayis 2026 Merkez Ofis Kira Odemesi - Ahmet Yilmaz",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN005",
+    "tarih": "2026-05-12",
+    "tutar": 210000.00,
+    "aciklama": "Gunes Tekstil Ltd Sti Cari Tahsilat",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN006",
+    "tarih": "2026-05-20",
+    "tutar": -35000.00,
+    "aciklama": "Vergi Dairesi - Mayis KDV Odemesi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN007",
+    "tarih": "2026-05-28",
+    "tutar": -122500.00,
+    "aciklama": "Mayis 2026 Personel Maasi Net Odemeleri Bilgisi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN008",
+    "tarih": "2026-06-05",
+    "tutar": -45000.00,
+    "aciklama": "Haziran 2026 Merkez Ofis Kira Odemesi - Ahmet Yilmaz",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN009",
+    "tarih": "2026-06-15",
+    "tutar": 195000.00,
+    "aciklama": "Gunes Tekstil Ltd Sti Cari Tahsilat",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN010",
+    "tarih": "2026-06-28",
+    "tutar": -125000.00,
+    "aciklama": "Haziran 2026 Personel Maasi Net Odemeleri Bilgisi",
+    "islem_tipi": "GIDER"
+  }
+]

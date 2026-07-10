@@ -1,0 +1,79 @@
+[
+  {
+    "islem_id": "TXN_TUR001",
+    "tarih": "2026-06-05",
+    "tutar": -90000.00,
+    "aciklama": "Haziran 2026 Otel Binasi Kira Odemesi - Mavi Turizm A.S.",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_TUR002",
+    "tarih": "2026-06-12",
+    "tutar": 280000.00,
+    "aciklama": "ETS Tur Acente Hakedis Tahsilati (Haziran I. Donem)",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN_TUR003",
+    "tarih": "2026-06-28",
+    "tutar": -180000.00,
+    "aciklama": "Haziran 2026 Otel Personeli Maas Odemeleri Bilgisi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_TUR004",
+    "tarih": "2026-07-05",
+    "tutar": -90000.00,
+    "aciklama": "Temmuz 2026 Otel Binasi Kira Odemesi - Mavi Turizm A.S.",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_TUR005",
+    "tarih": "2026-07-15",
+    "tutar": 390000.00,
+    "aciklama": "Jolly Tur Acente Hakedis Tahsilati (Temmuz Sezon Zirvesi)",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN_TUR006",
+    "tarih": "2026-07-28",
+    "tutar": -180000.00,
+    "aciklama": "Temmuz 2026 Otel Personeli Maas Odemeleri Bilgisi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_TUR007",
+    "tarih": "2026-08-05",
+    "tutar": -90000.00,
+    "aciklama": "Agustos 2026 Otel Binasi Kira Odemesi - Mavi Turizm A.S.",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_TUR008",
+    "tarih": "2026-08-15",
+    "tutar": 420000.00,
+    "aciklama": "Otel Direkt Rezervasyonlar ve Oda Gelirleri Toplu Tahsilati",
+    "islem_tipi": "GELIR"
+  },
+  {
+    "islem_id": "TXN_TUR009",
+    "tarih": "2026-08-28",
+    "tutar": -185000.00,
+    "aciklama": "Agustos 2026 Otel Personeli Maas Odemeleri Bilgisi",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_TUR010",
+    "tarih": "2026-08-30",
+    "tutar": -75000.00,
+    "aciklama": "Havuz ve Tesis Sezon Sonu Acil Bakim ve Kimyasal Onarim Gideri",
+    "islem_tipi": "GIDER"
+  },
+  {
+    "islem_id": "TXN_TUR011",
+    "tarih": "2026-09-02",
+    "tutar": 210000.00,
+    "aciklama": "Acente Son Rezervasyon Bakiyesi Kapanis Odemesi",
+    "islem_tipi": "GELIR"
+  }
+]

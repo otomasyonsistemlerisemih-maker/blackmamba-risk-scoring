@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mamba-risk-api
+    runtime: docker
+    plan: free
+    region: frankfurt
+    healthCheckPath: /docs
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
